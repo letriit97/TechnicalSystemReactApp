@@ -1,11 +1,15 @@
 import './App.css';
-import YoutobeList from './Components/Youtobes/youtobe_list';
+import Game from './Components/tictactoe/Game';
+// import YoutobeList from './Components/Youtobes/youtobe_list';
+
 
 
 // Functional Component
 function App() {
   return (
-      <YoutobeList></YoutobeList>
+    <div>
+      <Game></Game>
+    </div>
   )
 }
 
